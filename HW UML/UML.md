@@ -53,23 +53,6 @@ UC12 .> UC20 : <<include>>
 @enduml
 ```
 
-## Sequence
-```plantuml
-@startuml
-skinparam sequenceMessageAlign right
-
-КК -> КК
-СС -> СС
-ПК -> ПК
-СОБ -> СОБ
-Bob -> Alice : Синхронное
-activate Alice
-Alice --> Bob : Ответ
-deactivate Alice
-Bob ->> Alice : Асинхронное
-@enduml
-```
-
 ## Sequence "Аутентификация пользователя"
 ```plantuml
 @startuml
